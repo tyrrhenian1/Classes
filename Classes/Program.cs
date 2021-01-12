@@ -16,8 +16,7 @@ namespace Classes
             int minute = int.Parse(Console.ReadLine());
             Console.Write("Введите секунды: ");
             int seconds = int.Parse(Console.ReadLine());
-            Time time = new Time();
-            time.Add(hour,minute,seconds);
+            Time time = new Time(hour, minute, seconds);
             time.Print();
             time.Change();
             time.Print();

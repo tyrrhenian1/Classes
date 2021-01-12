@@ -11,7 +11,7 @@ namespace Classes
         public int hours;
         public int minutes;
         public int seconds;
-        public void Add(int hour, int minute, int seconds)
+        public Time(int hour, int minute, int seconds)
         {
             this.hours = hour;
             this.minutes = minute;
